@@ -1,0 +1,6 @@
+{
+  "name": "Zelfevaluatie",
+  "description": "Een zelfevaluatietest met betrekking tot kenmerken van een borderline persoonlijkheid.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
