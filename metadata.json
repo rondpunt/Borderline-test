@@ -1,6 +1,6 @@
 {
-  "name": "Zelfevaluatie",
-  "description": "Een zelfevaluatietest met betrekking tot kenmerken van een borderline persoonlijkheid.",
+  "name": "Kompas",
+  "description": "Een veilige plek om te praten over wat er is. Geen dwang om te veranderen.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

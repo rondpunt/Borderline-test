@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.ui.AppNavigation
-import com.example.ui.TestViewModel
+import com.example.ui.OnboardingApp
+import com.example.ui.OnboardingViewModel
 import com.example.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,8 +21,8 @@ class MainActivity : ComponentActivity() {
       MyApplicationTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
           androidx.compose.foundation.layout.Box(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
-            val appViewModel: TestViewModel = viewModel()
-            AppNavigation(viewModel = appViewModel)
+            val appViewModel: OnboardingViewModel = viewModel()
+            OnboardingApp(viewModel = appViewModel)
           }
         }
       }
